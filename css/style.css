@@ -1,0 +1,158 @@
+/*****Universal Selector & Universal Classes Starts Here******/
+
+/*****Universal Selector**/
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #d0d0d0;
+}
+h1,h2,h3,h4,h5,h6{
+    text-transform: capitalize;
+}
+p{
+    letter-spacing:0.5px;
+    word-spacing: 1px;
+    line-height: 24px;
+}
+/*****Universal Selector Ends Here**/
+
+/**Universal Classes Starts Here**/
+
+.navbar{
+    position:fixed;
+    width: 100vw;
+    background-color: #170b0f;
+    z-index: 1;
+}
+.navselect{
+    border: 1.5px solid #333;
+    border-radius: 10px;
+    word-spacing: -3rem;
+}
+.list{
+    padding: 1.5rem;
+    color: lightgrey;
+}
+.divtrend{
+    width: 30%;
+    overflow: hidden;
+    display: inline-block;
+    background: #fe2b26;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 2rem;
+}
+.tpara{
+    padding: 8px;
+    text-align: revert;
+    color: lightgrey;
+}
+/*psuedo classes*/
+.list:hover{
+    background-color: #f72119;
+    color: black;
+}
+/*psuedo classes*/
+
+/**Universal Classes ends Here**/
+
+/*****Universal Selector & Universal Classes Ends Here******/
+
+/*****Classes Starts Here******/
+
+/*navbar*/
+.ulnav{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.li-home{
+    color: #fe2b26;
+    font-weight: bolder;
+}
+.li-home:hover{
+    color: lightgrey;
+}
+.li-select{
+}
+.li-about{
+    
+}
+.li-contact{
+    
+}
+.li-faq{
+    
+}
+.li-srch{
+    position: absolute;
+    right: 0;
+    top: -9px;
+}
+.li-srch:hover{
+    background: #18171b;
+    color: white;
+}
+.input-search{
+    border-radius: 23px;
+    border:3px solid  #fe2b26;
+    padding: 5px;
+}
+/*navbar*/
+
+/*slider*/
+.slider{
+    background-image: url(../images/itachi.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.signup{
+    padding: 5rem;
+    position: relative;
+    top: 31vh;
+    left: 26%;
+    width: 37%;
+    background: #fffdfd70;
+    text-align: center;
+}
+.input-search{
+    background-color:d0d0d0 ;
+}
+
+/*slider*/
+
+/**Section Trending**/
+.th1{
+    text-align: center;
+}
+.btn{
+    color: #fe2b26;
+    background: black;
+    padding: 1em;
+    margin: 5px;
+    font-weight: bolder;
+    border-radius: 16px;
+    border: 3px solid #333;
+}
+.btn:hover{
+    background-color: #f72119;
+    color: #170b0f;
+    border-color: #170b0f;
+}
+.btn:active{
+    background-color: #170b0f;
+    color: #f72119;
+}
+/**Section Trending**/
+
+/*****Classes Ends Here******/
+
+
